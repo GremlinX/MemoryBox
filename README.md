@@ -5,7 +5,6 @@ Bem-vindo ao **MemoryBox**, um aplicativo web desenvolvido com React e Bootstrap
 ## ✨ Recursos
 - 📷 **Adicione imagens** com descrições personalizadas
 - 💾 **Armazene localmente** no navegador usando LocalStorage
-- 🗑 **Exclua memórias** quando quiser
 - 🎨 **Interface responsiva** utilizando Bootstrap
 
 ## 🚀 Tecnologias Utilizadas
