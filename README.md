@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 📸 Caixa de Memória - Salve suas lembranças!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao **MemoryBox**, um aplicativo web desenvolvido com React e Bootstrap que permite salvar imagens com descrições personalizadas. Poste e visualize suas memórias de forma fácil! 🚀
 
-## Available Scripts
+## ✨ Recursos
+- 📷 **Adicione imagens** com descrições personalizadas
+- 💾 **Armazene localmente** no navegador usando LocalStorage
+- 🗑 **Exclua memórias** quando quiser
+- 🎨 **Interface responsiva** utilizando Bootstrap
 
-In the project directory, you can run:
+## 🚀 Tecnologias Utilizadas
+- **React** ⚛️
+- **Bootstrap** 🎨
+- **LocalStorage** 💾
 
-### `npm start`
+## 📂 Instalação e Uso
+Siga os passos abaixo para rodar o projeto localmente:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+# Clone este repositório
+git clone https://github.com/GremlinX/MemoryBox.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Acesse a pasta do projeto
+cd my-app
 
-### `npm test`
+# Instale as dependências
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Inicie o projeto
+npm start
+```
 
-### `npm run build`
+O projeto estará rodando em `http://localhost:3000/`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌 Como Funciona?
+1. Clique no botão para adicionar uma nova memória.
+2. Preencha os campos no formulário.
+3. Salve a memória e visualize na tela.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Melhorias Futuras
+- 🔄 Opção para **editar** memórias
+- ☁️ Integração com **banco de dados na nuvem**
+- 🔍 Filtro e pesquisa de memórias
+- 🗑 Exclusão de memórias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📜 Licença
+Este projeto está sob a licença MIT - sinta-se à vontade para usá-lo e melhorá-lo! 😊
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Feito com ❤️ por [GremlinX](https://github.com/GremlinX).
