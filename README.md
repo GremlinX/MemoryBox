@@ -20,7 +20,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 git clone https://github.com/GremlinX/MemoryBox.git
 
 # Acesse a pasta do projeto
-cd my-app
+cd MemoryBox
 
 # Instale as dependências
 npm install
@@ -40,7 +40,6 @@ O projeto estará rodando em `http://localhost:3000/`.
 - 🔄 Opção para **editar** memórias
 - ☁️ Integração com **banco de dados na nuvem**
 - 🔍 Filtro e pesquisa de memórias
-- 🗑 Exclusão de memórias
 
 ## 📜 Licença
 Este projeto está sob a licença MIT - sinta-se à vontade para usá-lo e melhorá-lo! 😊

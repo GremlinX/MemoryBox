@@ -1,7 +1,7 @@
-import { Card } from "react-bootstrap"
+import { Card, CloseButton } from "react-bootstrap"
 import style from './memoria.module.css'
 
-function Cartao({ creator, title, comment, image }) {
+function Cartao({ creator, title, comment, image, onDelete }) {
     
     const defaultImageUrl = 'https://mrconfeccoes.com.br/wp-content/uploads/2018/03/default.jpg';
 
@@ -14,7 +14,10 @@ function Cartao({ creator, title, comment, image }) {
                         <Card.Title className='text-center'>{title}</Card.Title>
                         <Card.Text className={style.overflowY}>{comment}</Card.Text>
                     </Card.Body>
-                    <Card.Footer className='text-center'>{creator}</Card.Footer>
+                    <Card.Footer className='text-center'>
+                        {creator}
+                        <CloseButton variant="red" onClick={onDelete}></CloseButton>
+                    </Card.Footer>
                 </Card>
             </app-cartao>
         </div>

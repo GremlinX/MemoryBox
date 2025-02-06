@@ -5,10 +5,7 @@ import Cartao from "./Cartao";
 import CustomModal from "./Modal";
 
 function Memoria() {
-    const [cards, setCards] = useState([]);
-
-    console.log(localStorage.getItem('cards'));
-    
+    const [cards, setCards] = useState([]);    
 
     useEffect(() => {
         const savedCards = localStorage.getItem('cards');
